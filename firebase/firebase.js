@@ -20,5 +20,7 @@ if(!firebase.apps.length){
 
 
 export const GoogleProvider = new firebase.auth.GoogleAuthProvider();
+GoogleProvider.setCustomParameters({ prompt : 'select_account' })
+
 export const Auth = firebase.auth();
 export default firebase;

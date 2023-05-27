@@ -5,10 +5,12 @@ import { StyledFirebaseAuth } from "react-firebaseui";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
+import { useRouter } from "next/navigation";
 
 export default function Page() {
 
   const db = firebase.firestore();
+  const router = useRouter();
 
   const [count, setcount] = useState(0);
   const [countGlo, setcountGlo] = useState(0)
@@ -58,7 +60,7 @@ export default function Page() {
       email: Auth.currentUser.email,
       url: Auth.currentUser.photoURL,
     });
-    setcountGlo((await db.collection("User").doc(client.uid).get()).data().Count)
+    
   }
 
   async function signout() {
