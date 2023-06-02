@@ -8,7 +8,6 @@ import { getDocs } from "firebase/firestore";
 import { useRouter } from "next/navigation";
 import { toast } from "react-hot-toast";
 import Image from "next/image";
-console.log("log")
 
 export default function Page() {
   const db = firebase.firestore();
