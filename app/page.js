@@ -157,18 +157,7 @@ export default function Page() {
             Global Count : {countGlo}
           </button>
         </div>
-        <div className="grid grid-cols-1 gap-5 " >
-          <form onSubmit={(e) => Handlesubmit(e)} className="flex justify-center items-center gap-5 flex-col" >
-            <input
-              type="text"
-              className="px-5 bg-indigo-700 py-2 rounded font-bold"
-            />
-            <button type="submit" className="px-5 w-[30%] bg-indigo-700 py-2 rounded font-bold">
-              Send
-            </button>
-          </form>
-          <Image width={312} height={1} src="https://avatars.githubusercontent.com/u/96632943?v=4" />
-        </div>
+
       </div>
     </>
   );
