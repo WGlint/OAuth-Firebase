@@ -4,13 +4,13 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.senderId,
-  appId: process.env.appId,
-  measurementId: process.env.measurementId
+  apiKey: "AIzaSyCW3eGl3CWkAf8rrGHRPrFJ_jNxEuhpskc",
+  authDomain: "authjs-500a8.firebaseapp.com",
+  projectId: "authjs-500a8",
+  storageBucket: "authjs-500a8.appspot.com",
+  messagingSenderId: "937383511788",
+  appId: "1:937383511788:web:b092a2d2c5e779dfd1c7c9",
+  measurementId: "G-GG0TS0NK29"
 };
 
 
