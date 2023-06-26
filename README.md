@@ -1,4 +1,4 @@
-# Logging Test - Firebase Authentification
+# Logging Test - Firebase Authentification with Google providers
 
 It's a little projet for try Google Auth with firebase and get data like UID or Profil Picture.
 
